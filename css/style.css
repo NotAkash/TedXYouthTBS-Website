@@ -1,0 +1,21 @@
+/*!
+ * Start Bootstrap - (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+html{
+  height: 100%;
+}
+ body {
+  height: 100%;
+  padding-top: 40px; 
+  background: #eeeeee;;
+}
+
+.header{
+  background: #111111;
+}
+
+.fullpage{
+  height: 100%;
+}
