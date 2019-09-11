@@ -6,10 +6,32 @@
 html{
   height: 100%;
 }
- body {
+body {  
   height: 100%;
   padding-top: 70px; 
   background: #eeeeee;;
+}
+
+.container>.body{
+
+    top: 5%;
+    min-height: 100vh;
+    position: absolute;
+    right: 5%;
+    left: 5%;
+  
+}
+
+footer{
+  position: relative;
+  right: 0%;
+  left: 0%;
+  padding-top: 10px;
+  display: block;
+  margin-top: 20px; /* space between content and footer */
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
 }
 
 .fullpage{
