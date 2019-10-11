@@ -21,10 +21,12 @@
   <link href="css/style.css" rel="stylesheet">
 
 </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <body>
+
   <!-- Header -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="index.html"><img class="img-fluid rounded" style="height:85px; width:145px;" src="img/headerlogo.png"></a>
       <button class="navbar-toggler ml-auto"type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,19 +34,17 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="src/team.html">Team</a>
+            <a class="nav-link" href="#about">About TED</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="src/speakers.html">Speakers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="src/about.html">About TED</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="src/partners.html">Partners</a>
@@ -53,95 +53,69 @@
       </div>
     </div>
   </nav>
-
-
-<!-- Page Content -->
-  <div class="container body">
-    <!-- Heading Row -->
-    <div class="row align-items-center my-5 fullpage">
-      <div class="col-sm">
-        <img class="float-center img-fluid rounded mb-4 mb-lg-6" src="img/headerlogo.png" alt="TedX Youth At TBS New Delhi Logo">
+  
+  <!-- Body -->
+  <div class="container">
+      <div class="row align-items-center my-5 fullpage mh-100 fullpage">
+          <br>
+          <div class="col-xl-12">
+            <img class="float-center img-fluid rounded" src="img/headerlogo.png" alt="TedX Youth At TBS New Delhi Logo">
+          </div>
       </div>
 
-      <div class="col-sm">
-        <img src="img/tbs.jpg" class="float-center img-fluid rounded mb-4 mb-lg-6">
-      </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-sm">
-          <h1 class="font-weight-light">Welcome To TedX @ The British School</h1>
-          <p>Some more filler text that can be added to describe the event according to guideliens</p>
-          <a class="btn btn-primary" href="../TedXYouth-TBS/src/about.html">Find out more about Ted</a>
-        </div>
-        
-      <div class="col-sm card text-white bg-secondary my-4 py-4 text-center">
-        <div class="card-body">
-          <p class="text-white m-5">Ted Spirit</p>
+      <div class="row align-items-center text-center mh-100">
+        <div class="col-lg-12">
+          <h2 class="display-4">Welcome To TedX @ The British School, New Delhi</h2>
         </div>
       </div>
-    </div>
 
-      <!-- /.col-lg-8 -->
-      
-    <!-- Content Row -->
-    <div class="row">
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Ideas Worth Spreading</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">More Info</a>
-          </div>
+      <div class="row align-items-center text-center mh-100" id="about">
+        <div class="col-md-6 my-5" >
+          <h2>About Us</h2>
+          <p class="text-left">
+            TED is a nonprofit devoted to spreading ideas in the form of short, powerful talks. 
+            TED began in 1984 as a conference where Technology, Entertainment and Design converged, 
+            and today covers almost all topics in more than 100 languages. Meanwhile, independently 
+            run TEDx events help share ideas in communities around the world.
+            <br><br>
+            TED is a global community, welcoming people from every discipline and culture who seek 
+            a deeper understanding of the world and believe in the power of ideas to change lifes. 
+            Our mission is to build a clearinghouse of free knowledge from the world's most inspired thinkers 
+            — and a community of curious souls to engage with ideas and each other, both online and at TED and 
+            TEDx events around the world, all year long.
+            <br><br>
+            TedXYouth-TBS is a student-led platform, founded on campus in 2019, 
+            for spreading new ideas and connecting a community within Austin eager 
+            to grow their impact on the world. As a world-class school 
+            in one of the worlds largest cities, TedxYouth-TBS draws upon the 
+            students to host diverse, 
+            rich, and enlightening experiences.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="img/tbs.jpg" class="img-fluid float-right" alt="The British School">
         </div>
       </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Our Theme</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">More Info</a>
-          </div>
-        </div>
-      </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">About TBS / The Team</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">More Info</a>
-          </div>
-        </div>
-      </div>
-      <!-- /.col-md-4 -->
-
-    </div>
-    <!-- /.row -->
-
   </div>
-  <!-- /.container -->
+  </div>
+  
+</div>
+
+</body>
 
 
-  <!-- Footer -->
-  <footer class="page-footer font-small grey darken-3">
-
-    <!-- Footer Elements -->
+<!-- Footer  -->
+<footer class="page-footer font-small grey darken-3">
+  
+  <!-- Footer Elements -->
     <div class="container">
-
+      
       <!-- Grid row-->
       <div class="row">
 
         <!-- Grid column -->
         <div class="col-md-12 py-4">
           <div class="mb-5 flex-center">
-
+            
             <!-- Facebook -->
             <a class="fb-ic">
               <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
@@ -161,33 +135,68 @@
     </div>
   <!-- Footer Elements -->
   <!-- Copyright -->
-
+  
   <div class="footer-copyright text-center py-3">
-          
-    <p class="text-center">
-            Built with 🔥 by <a href="https://github.com/NotAkash">Akash Singh</a>.<a href="https://github.com/NotAkash/TedXYouth-TBS"> Source code</a> licensed under the <a href="https://github.com/NotAkash/TedXYouth-TBS/blob/master/LICENSE">MIT License.</a> 
-    </p>
     
     <p class="text-center">
-              Copyright &copy; <a href="https://www.british-school.org">The British School</a>, New Delhi
+            Built with 🔥 by <a href="https://github.com/NotAkash">Akash Singh</a>.<a href="https://github.com/NotAkash/TedXYouth-TBS"> Source code</a> licensed under the <a href="https://github.com/NotAkash/TedXYouth-TBS/blob/master/LICENSE">MIT License.</a> 
+          </p>
+    
+    <p class="text-center">
+      Copyright &copy; <a href="https://www.british-school.org">The British School</a>, New Delhi
     </p>
     </div>
     
-  </footer>
-
-  <!-- Copyright -->
-
-
-  <!-- Bootstrap core JavaScript -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>
+</footer>
+  
+<!-- Bootstrap core JavaScript -->
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>
 
 </body>
 
 </html>
+<!-- 
+<div class="row">
+  <div class="col-md-4 mb-5">
+    <div class="card h-100">
+      <div class="card-body">
+          <h2 class="card-title">Ideas Worth Spreading</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary btn-sm">More Info</a>
+        </div>
+      </div>
+    </div>
+   
+    <div class="col-md-4 mb-5">
+      <div class="card h-100">
+        <div class="card-body">
+          <h2 class="card-title">Our Theme</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary btn-sm">More Info</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-5">
+      <div class="card h-100">
+        <div class="card-body">
+          <h2 class="card-title">About TBS / The Team</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary btn-sm">More Info</a>
+        </div>
+      </div>
+    </div>
+-->
