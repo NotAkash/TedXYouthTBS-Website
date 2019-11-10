@@ -21,6 +21,8 @@ body {
   }
 }
 
+
+
 .container>.body{
     width: 100%;
     top: 1%;
@@ -28,9 +30,13 @@ body {
     position: absolute;
     right: 5%;
     left: 5%;
-  
 }
 
+
+li.nav-item{
+  font-size: 20px; 
+  width:content-max;
+}
 
 footer{
   position: relative;
