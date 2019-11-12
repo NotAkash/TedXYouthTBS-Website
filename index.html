@@ -28,8 +28,8 @@
 
   <!-- Header <img class="img-fluid rounded" style="height:115px; width:170px;" src="img/logo3.svg">-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><object data="img/logo2.svg" style="height: 125px; width:250px;" type="image/svg+xml"></object></a>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><object data="img/realogo.svg" style="height: 125px; width:250px;" type="image/svg+xml"></object></a>
       <button class="navbar-toggler ml-auto"type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,10 +42,10 @@
             <a class="nav-link" href="src/event.html#schedule">Event Details</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="src/speakers.html">Speakers</a>
+            <a class="nav-link" href="src/speakers.html#speakers">Speakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="src/team.html">Our Team</a>
+            <a class="nav-link" href="src/team.html#team">Our Team</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="src/connect.html#connect">Connect With Us</a>
@@ -56,7 +56,7 @@
   </nav>
   
   <!-- Body -->
-  <div class="container">
+  <div class="container-fluid" style="padding:3%;">
       <div class="row align-items-center my-5 fullpage mh-100 fullpage">
           <br>
           <div class="col-xl-12">
@@ -66,22 +66,22 @@
           
       </div>
 
-      <div class="row align-items-center text-center mh-100">
+      <div class="row align-items-center text-center mh-100" id="about">
         <div class="col-lg-12">
-          <h2 style="font-family: 'Roboto Slab', serif;" class="display-4">Welcome To TedX @ The British School, New Delhi</h2>
+          <h2 style="font-family: 'Roboto Slab', serif;" class="display-4">Welcome To TedX Youth @ The British School, New Delhi</h2>
         </div>
       </div>
 
-      <div class="row align-items-center text-center mh-100" id="about">
-        <div class="col-lg-12 my-5" >
-          <h2 class="display-3 text-left">About Us</h2>
+      <div class="row align-items-center text-center mh-100" >
+        <div class="col-lg-12 my-4" >
           <img src="img/tbs.jpg" class="rounded img-fluid float-right" alt="The British School">
+          <h2 class="display-3 text-left">About Us</h2>
           <p class="text-left">
           
           <strong class="display-6">TEDxYouth@TBSNewDelhi</strong> aims to explore initiatives and ideas from diverse fields that inspire and empower individuals. 
           he event will bring together vibrant speakers to present talks, generate a dialogue and kindle passion amongst members of the community.
           <br><br>
-          <strong class="display-4">Enrich to Empower</strong> 
+          <strong class="display-4"> About TED: Enrich To Empower </strong><br>
           To enrich someone’s life is to enable them to live their dreams and fulfill their aspirations. 
           TBS has always been at the forefront of promoting inclusivity and inspiring the larger community 
           and has led by example. Our speakers raise pertinent questions from the field of environment, conservation, 
@@ -91,8 +91,8 @@
       </div>
      </div>
     <div class="row align-items-center text-center mh-100">  
-      <div class="col-lg-12 my-5">
-          <h2 class="display-4">About TEDx</h2>
+      <div class="col-lg-12 my-2">
+          <h2 class="display-4 text-left">About TEDx</h2>
           <p class="text-left">
             <strong class="display-6">x = independently organized event</strong>
             In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. 
@@ -103,19 +103,16 @@
       </div>
     </div>
 <hr><br><br>
-  </div>
-</div>
-
 
       <div class="row align-items-center text-center mh-100" style="width: 100%;" id="speaker">
         <div class="col-md-4 mb-5">
           <div class="card h-100">
             <div class="card-body">
                 <h2 class="card-title">Speakers</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                <a href="./src/speakers.html#speakers" class="btn btn-primary btn-sm">More Info</a>
               </div>
               <div class="card-footer">
-                <a href="./src/speakers.html" class="btn btn-primary btn-sm">More Info</a>
+                <br>
               </div>
             </div>
           </div>
@@ -124,10 +121,10 @@
             <div class="card h-100">
               <div class="card-body">
                 <h2 class="card-title">Event Details</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                <a href="./src/event.html#schedule" class="btn btn-primary btn-sm">More Info</a>
               </div>
               <div class="card-footer">
-                <a href="./src/event.html#schedule" class="btn btn-primary btn-sm">More Info</a>
+                <br>
               </div>
             </div>
           </div>
@@ -136,10 +133,10 @@
             <div class="card h-100">
               <div class="card-body">
                 <h2 class="card-title">Our Team</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                <a href="./src/team.html#team" class="btn btn-primary btn-sm">More Info</a>
               </div>
               <div class="card-footer">
-                <a href="./src/team.html" class="btn btn-primary btn-sm">More Info</a>
+                <br>
               </div>
             </div>
           </div>
@@ -149,6 +146,7 @@
   </div>
   
 </div>
+
 
 </body>
 

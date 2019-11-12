@@ -28,8 +28,8 @@
 
   <!-- Header -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="../index.html"><object data="../img/logo2.svg" style="height: 125px; width:250px;" type="image/svg+xml"></object></a>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><object data="../img/realogo.svg" style="height: 125px; width:250px;" type="image/svg+xml"></object></a>
       <button class="navbar-toggler ml-auto"type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,10 +42,10 @@
             <a class="nav-link" href="../src/event.html#schedule">Event Details</a>
           </li>
           <li class="nav-item" style="width:max-content">
-            <a class="nav-link" href="../src/speakers.html">Speakers</a>
+            <a class="nav-link" href="../src/speakers.html#speakers">Speakers</a>
           </li>
           <li class="nav-item" style="width:max-content">
-            <a class="nav-link" href="../src/team.html">Our Team</a>
+            <a class="nav-link" href="../src/team.html#team">Our Team</a>
           </li>
           <li class="nav-item" style="width:max-content">
             <a class="nav-link" href="../src/connect.html#connect">Connect With Us</a>
@@ -56,60 +56,81 @@
   </nav>
   
   <!-- Body -->
-  <div class="container">
-      <div class="row align-items-center my-5 fullpage mh-100">
-          <br>
-          <div class="col-xl-12">
-            <img class="float-center img-fluid rounded" src="../img/headerlogo.png" alt="TedX Youth At TBS New Delhi Logo">
-            <br><br><br>
-          </div>
-      </div>
-      <div class="row align-items-center my-5 fullpage mh-100" id="schedule">
-            <table class="table table-dark table-responsive" style="overflow-x: auto;">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Time</th>
-                        <th scope="col">Schedule</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>8:50 AM</td>
-                        <td>9:00 - 9:10am</td>
-                        <td>9:10-9:20am </td>
-                        <td>9:30 - 11:10am </td>
-                        <td>(10:15 - 10:25)</td>
-                        <td>11:10 - 11:40am </td>
-                        <td>(15 minutes buffer for students to settle)</td>
-                        <td>11:55 - 1:35pm</td>
-                        <td>(12:40 - 12:50pm)</td>
-                        <td>1:35 - 1:45pm </td>
-                        <td>2:00 PM</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Students finish lesson 1 and move towards Audi </td>
-                        <td>Students attendees registration completed + handed out booklet</td>
-                        <td>Student attendees are seated </td>
-                        <td>First 90 minute session </td>
-                        <td>Washroom break</td>
-                        <td>Lunch break + acitvities </td>
-                        <td></td>
-                        <td>Second 90 minute session </td>
-                        <td>Washroom break</td>
-                        <td>Closing and gifting </td>
-                        <td>Students go back to classes/lockers </td>
-                      </tr>
+  <div class="container-fluid my-3" style="padding: 3%;">
 
-                    </tbody>
-                  </table>
-      </div>
+    <div class="row align-items-center my-5 fullpage mh-100">
+        <br>
+        <div class="col-xl-12">
+          <img class="float-center img-fluid rounded" src="../img/headerlogo.png" alt="TedX Youth At TBS New Delhi Logo">
+          <br><br><br>
+        </div>
     </div>
+    <div class="row align-items-center text-center mh-100 my-4" id="schedule"> 
+        <div class="col-md-12">
+           <h2 class="display-3 text-center">Event Schedule</h2>
+        </div>
+   </div>
+    <div class="row align-items-center mh-100 table-responsive">
+      <div class="col-md-12">
+      <table class="table table-dark text-center" style="overflow-x: auto; ">
 
+          <thead>
+            <tr>
+              <th scope="col" class="font-weight-bold display-4">#</th>
+              <th scope="col" class="font-weight-bold display-4">Time</th>
+              <th scope="col" class="font-weight-bold display-4">Schedule</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>9:00 - 9:20AM</td>
+              <td>Registration</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>9:30 - 11:10am </td>
+                <td>First 90 minute session </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>11:10 - 11:40am </td>
+                <td>Lunch break + acitvities</td>
+              </tr>
+              <tr>
+                  <th scope="row">4</th>
+                  <td>11:55 - 1:35pm</td>
+                  <td>Second 90 minute session </td>
+              </tr>
+              <tr>
+                  <th scope="row">5</th>
+                  <td>1:35 - 2:00pm </td>
+                  <td>Closing and gifting </td>
+              </tr>
+            </tbody>
+      </table>
+    </div>
+  </div>
+</div>
 </body>
 
+<!-- 
+<tr>
+    <th scope="row">1</th>
+    <td>9:00 - 9:20am</td>
+    <td>9:30 - 11:10am </td>
+    <td>11:10 - 11:40am </td>
+    <td>11:55 - 1:35pm</td>
+    <td>1:35 - 2:00pm </td>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td>Registration</td>
+    <td>First 90 minute session </td>
+    <td>Lunch break + acitvities </td>
+    <td>Second 90 minute session </td>
+    <td>Closing and gifting </td>
+  </tr> -->
 
 <!-- Footer  -->
 <footer class="page-footer font-small grey darken-3">
