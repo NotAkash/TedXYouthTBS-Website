@@ -20,7 +20,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
   
   <link href="../css/style.css" rel="stylesheet">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -29,7 +29,7 @@
   <!-- Header -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html"><embed src="../img/realogo.svg" style="height: 125px; width:250px;" type="image/svg+xml"></a>
+      <embed src="../img/navlogo.svg" style="height: 125px; width:250px;" type="image/svg+xml">
       <button class="navbar-toggler ml-auto"type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -54,17 +54,22 @@
       </div>
     </div>
   </nav>
-  
-  <!-- Body -->
-  <div class="container-fluid">
-    <div class="row align-items-center text-center mh-100 my-4" id="team"> 
-         <div class="col-md-12">
-            <h2 class="display-3 text-center">Organizing Team</h2>
-         </div>
-    </div>
-    <div class="row align-items-center text-center mh-100 my-4" id="team"> 
 
-            <div class="col-md-4">
+  <!-- Body -->
+  <div class="container-fluid" class="parallax">
+    <div class="row align-items-center text-center mh-100 my-4"> 
+      <div class="col-md-6">
+        <img src="../img/teamphoto.jpg" alt="Team Photograph" class="img img-fluid rounded">
+      </div>
+
+      <div class="col-md-6" id="team">
+            <h2 class="display-3 text-center">Organizing Team</h2>
+      </div>
+
+    </div>
+    <div class="row align-items-center text-center mh-100 my-4" > 
+
+      <div class="col-md-4">
                 <div class="card" style="height:325px; overflow: auto;">
                   <div class="card-body">
                     <h5 class="card-title">Event Management</h5>
@@ -96,7 +101,6 @@
                     <div class="card-body">
                       <h5 class="card-title">Design</h5>
                       <ul class="list-group">
-                          <li class="list-group-item">Arnav Pawan Jagetia</li>
                           <li class="list-group-item">Ashima Girdhar</li>
                           <li class="list-group-item">Arminta Adeva Rokeb</li>
                           <li class="list-group-item">Devaki Jayal</li>
@@ -104,16 +108,18 @@
                       </ul>
                     </div>
                   </div>
-                </div>        
-        </div>
-        <div class="row align-items-center text-center mh-100 my-4" id="team"> 
-            <div class="col-md-4">
+      </div>        
+      </div>
+      <div class="row align-items-center text-center mh-100 my-4" id="team"> 
+        <div class="col-md-4">
                 <div class="card" style="height:325px; overflow: auto;">
                   <div class="card-body">
                     <h5 class="card-title">Website</h5>
                     <ul class="list-group">
                         <li class="list-group-item">Akash Singh</li>
-                    </ul>               
+                        <li class="list-group-item">Arnav Pawan Jagetia</li>
+                    </ul>   
+                                
                   </div>
                 </div>
               </div>
@@ -141,7 +147,7 @@
                     </ul>               
                     </div>
                   </div>
-                </div>        
+              </div>        
         </div>
         <div class="row align-items-center text-center mh-100 my-4" id="team"> 
             <div class="col-md-4">
