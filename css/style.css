@@ -5,30 +5,37 @@
  */
 html{
   height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 body {  
   height: 100%;
-  padding-top: 70px; 
   background: #eeeeee;;
 }
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
 
-.container>.body{
 
-    top: 5%;
-    min-height: 100vh;
-    position: absolute;
-    right: 5%;
-    left: 5%;
-  
+
+
+li.nav-item{
+  font-size: 20px; 
+  width:content-max;
 }
 
 footer{
   position: relative;
   right: 0%;
   left: 0%;
-  padding-top: 10px;
+  padding-top: 5px;
   display: block;
-  margin-top: 20px; /* space between content and footer */
+  margin-top: 15px; /* space between content and footer */
   box-sizing: border-box;
   position: relative;
   width: 100%;
