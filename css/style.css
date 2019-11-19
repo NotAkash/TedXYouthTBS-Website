@@ -13,7 +13,8 @@ html{
 }
 body {  
   height: 100%;
-  background: #eeeeee;;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 @media (max-width: 979px) {
   body {
