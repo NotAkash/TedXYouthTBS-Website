@@ -15,3 +15,5 @@ http://tedxyouthtbsnewdelhi.in/
 
 # Test Server
 https://notakash.github.io/TedXYouthTBS-Website
+
+##Note: The website has recently been updated by future iterations of the event.
